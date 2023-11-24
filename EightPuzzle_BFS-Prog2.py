@@ -46,7 +46,10 @@ def bfs(src, target):
         source = queue.pop(0)
         exp.append(source)
 
-        print(source)
+        print(source[0],'|',source[1],'|',source[2])
+        print(source[3],'|',source[4],'|', source[5])
+        print(source[6],'|', source[7],'|',source[8])
+        print()
 
         if source == target:
             print("success")
